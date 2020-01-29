@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header style={headerStyle}>
       <h1>TodoList</h1>
-      <Link style={linkStyle} to="/">
+      <Link style={linkStyle} to="/home">
         Home
       </Link>{" "}
       |{" "}
